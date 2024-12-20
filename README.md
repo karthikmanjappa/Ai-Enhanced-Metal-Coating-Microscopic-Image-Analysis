@@ -1,4 +1,4 @@
-# Ai-Enhanced-Metal-Coating-Microscopic-Image-Analysis
+## Ai-Enhanced-Metal-Coating-Microscopic-Image-Analysis
 #### AI-Enhanced Metal Coating Microscopic Image Analysis uses machine learning and image processing to analyze microscopic images of metal coatings. It detects defects, predicts coating quality, and enhances performance with techniques like CLAHE and SLIC algorithms.
 ## Introduction
 #### AI-Enhanced Metal Coating Microscopic Image Analysis addresses this challenge by integrating advanced machine learning and image processing techniques to automate and improve the evaluation process. By leveraging artificial intelligence, this system analyzes high-resolution microscopic images of metal coatings to identify defects, predict coating quality, and provide actionable insights for quality assurance. The incorporation of AI not only reduces the time and effort required for analysis but also enhances the accuracy and repeatability of the results.The system employs sophisticated image processing techniques, such as Contrast Limited Adaptive Histogram Equalization (CLAHE), to enhance image clarity and detail, ensuring that even subtle defects are detectable. Additionally, the Superpixel Linear Iterative Clustering (SLIC) algorithm is used to segment images into meaningful regions, facilitating precise analysis of coating patterns and anomalies. These methodologies enable the system to capture intricate details that may be overlooked through manual inspection.
@@ -17,6 +17,18 @@ Image processing techniques enhance the input data for machine learning models, 
 ## 3.Feature Extraction:
 #### Texture Analysis: Evaluates surface uniformity using metrics such as entropy and variance.
 #### Structural Features: Detects cracks, pores, or irregularities by analyzing geometric properties.
+## Binary Thresholding in Coating Analysis
+#### Binary thresholding is a fundamental image processing technique used to simplify and segment an image by converting it into a binary format. This method is particularly useful in coating analysis for identifying and isolating defects in microscopic images.
+#### Binary thresholding converts a grayscale image into a binary image by setting a threshold value.
+#### 1.Pixels with intensity values above the threshold are set to white (1).
+#### 2.Pixels with intensity values below the threshold are set to black (0).
+## Mathematical Representation:
+#### ![image](https://github.com/user-attachments/assets/355d0004-7901-4303-b0b8-81016e07aac6)
+## Thresholding image
+#### ![image](https://github.com/user-attachments/assets/cbf4e109-d0cb-4f42-8560-ef4018794c38)
+
+
+
 
 
 
